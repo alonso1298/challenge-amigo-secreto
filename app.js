@@ -10,11 +10,19 @@ function asignarTextoElemento(elemento, texto) {
 
 function agregarAmigo(lista) {
     let nombre = document.getElementById('amigo').value
-    lista.push(nombre);
+    if(nombre == '') {
+        alert('Por favor, inserte un nombre')
+    }else {
+        lista.push(nombre);
+        document.getElementById('amigo').value = ''
+    }
     return lista;
 }
 
-function actualizarAmigos(lista) {
+
+console.log(agregarAmigo(nombres))
+
+function actualizarAmigos() {
     const lista = document.getElementById('listaAmigos');
 }
 
