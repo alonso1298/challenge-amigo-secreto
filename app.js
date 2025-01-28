@@ -25,7 +25,18 @@ function actualizarAmigos() {
     for(let i = 0; i < nombres.length; i++) {
         const li = document.createElement('li');
         li.textContent = nombres[i];
-        lista.appendChild(li)
+        lista.appendChild(li);
+    }
+}
+
+function sortearAmigo() {
+    if(nombres.length < 2){
+        alert('Debe haber al menos 2 nombres para sortear')
+    }else {
+        let indice = Math.floor(Math.random() * nombres.length);
+        let nombreGanador = nombres[indice];
+        resultado = document.getElementById('resultado');
+        resultado.innerHTML = nombreGanador
     }
 }
 
