@@ -36,7 +36,7 @@ function sortearAmigo() {
         let indice = Math.floor(Math.random() * nombres.length);
         let nombreGanador = nombres[indice];
         resultado = document.getElementById('resultado');
-        resultado.innerHTML = nombreGanador
+        resultado.innerHTML = `El ganador es: ${nombreGanador} !!!🥳`
     }
 }
 
