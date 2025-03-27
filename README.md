@@ -2,6 +2,8 @@
 
 ¡Bienvenido al proyecto _Amigo Secreto_! Este es un divertido juego interactivo que permite a los usuarios agregar nombres de amigos y realizar un sorteo para asignar un "amigo secreto" de manera aleatoria.
 
+![Imagen de la pagina 'Amigo Secreto' terminada](https://github.com/alonso1298/challenge-amigo-secreto/blob/076a08c28a5e6571909507b42fab6d943a03aad5/assets/AmigoSecreto.png)
+
 ## Descripción del Proyecto 📜
 
 Este proyecto consiste en una aplicación web que permite:
